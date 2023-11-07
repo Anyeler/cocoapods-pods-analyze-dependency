@@ -145,13 +145,13 @@ PLATFORMS
 
 DEPENDENCIES
   bacon
-  bundler
+  bundler (= 2.4.21)
   cocoapods
   cocoapods-pods-analyze-dependency!
   mocha
   mocha-on-bacon
   prettybacon
-  rake
+  rake (= 13.1.0)
   rubocop
   ruby-lsp
 

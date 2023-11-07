@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'bundler/gem_tasks'
 
 def specs(dir)
@@ -9,5 +11,4 @@ task :specs do
   sh "bundle exec bacon #{specs('**')}"
 end
 
-task :default => :specs
-
+task default: :specs
